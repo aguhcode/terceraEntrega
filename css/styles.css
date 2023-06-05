@@ -56,10 +56,13 @@ p {
   text-align: center;
 }
 
-footer .container-redes a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-size: 40px;
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
 }
 
 .container-cards {
@@ -175,7 +178,8 @@ textarea {
 }
 
 h3 {
-  color: white;
+  font-size: "Times New Roman", Times, serif;
+  color: #EC681C;
 }
 
 .sobremi {
