@@ -67,6 +67,7 @@ p {
 
 .container-cards {
   display: grid;
+  height: 20%;
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   grid-gap: 1rem;
 }
@@ -161,7 +162,7 @@ textarea {
 
 .titulo1 {
   font-family: "Times New Roman", Times, serif;
-  font-size: 100px;
+  font-size: 100rem;
   color: pink;
   font-size: 60px;
 }
@@ -175,6 +176,7 @@ textarea {
 .titulo2 {
   font-size: "Times New Roman", Times, serif;
   color: #EC681C;
+  text-decoration: none;
 }
 
 h3 {
@@ -189,6 +191,26 @@ h3 {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
+}
+
+.galeria {
+  display: flex;
+  width: 600px;
+  height: 430px;
+}
+
+.galeria img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.galeria img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
 }
 
 .container-cards {
@@ -268,7 +290,7 @@ textarea {
   align-items: center;
 }
 .banner-uno iconify-icon, .banner-dos iconify-icon, .banner-tres iconify-icon {
-  font-size: 100px;
+  font-size: 14rem;
 }
 
 #carouselSection {
